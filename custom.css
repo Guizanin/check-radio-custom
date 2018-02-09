@@ -1,0 +1,25 @@
+.wrap-check-custom {
+  margin-bottom: 20px; }
+  .wrap-check-custom .check-fake {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #aaa; }
+    .wrap-check-custom .check-fake .icon {
+      width: 10px;
+      height: 10px;
+      margin: 5px; }
+    .wrap-check-custom .check-fake input {
+      opacity: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0; }
+      .wrap-check-custom .check-fake input:checked ~ .icon {
+        background: #000; }
+  .wrap-check-custom .text {
+    vertical-align: middle; }
+  .wrap-check-custom.radio-custom .check-fake, .wrap-check-custom.radio-custom .icon {
+    border-radius: 50px; }
+
+/*# sourceMappingURL=custom.css.map */
